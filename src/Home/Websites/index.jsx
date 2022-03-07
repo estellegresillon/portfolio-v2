@@ -65,6 +65,7 @@ const WebsiteWrapper = styled.div`
 
   @media screen and (max-width: 820px) {
     font-size: 36px;
+    height: 40vh;
     width: 90%;
 
     &:nth-child(2n) {
