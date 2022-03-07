@@ -39,6 +39,8 @@ const Experiences = () => (
 export default Experiences;
 
 const ExperiencesWrapper = styled.div`
+  z-index: 15;
+
   .section-one-facts {
     height: 105vh;
     position: sticky;
@@ -71,7 +73,7 @@ const ExperiencesWrapper = styled.div`
     @media screen and (max-width: 820px) {
       background: #f0ac8e;
       height: auto;
-      position: relative;
+      z-index: 3;
 
       .section-one-facts-inner .description-wrapper .description-top {
         margin-top: 10vh !important;
@@ -149,15 +151,23 @@ const ExperiencesWrapper = styled.div`
 
       @media screen and (max-width: 820px) {
         .img-wrapper {
-          height: 50vh;
+          height: 20vh;
           width: 100%;
         }
 
         .description-wrapper {
+          justify-content: flex-start;
+          height: 80vh;
           width: 100%;
 
           .description-bottom {
-            padding: 5vh 10% 10vh;
+            height: auto;
+            margin: 0;
+            padding: 0 10%;
+
+            p {
+              font-size: 16px;
+            }
           }
         }
       }

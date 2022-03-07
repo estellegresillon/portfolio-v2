@@ -24,7 +24,7 @@ const FooterWrapper = styled.div`
   background-size: cover;
   display: flex;
   flex-direction: column;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: bolder;
   height: 65vh;
   justify-content: center;
@@ -37,6 +37,7 @@ const FooterWrapper = styled.div`
   }
 
   @media screen and (max-width: 820px) {
+    background-attachment: unset;
     height: 100vh;
     font-size: 36px;
     margin-top: 0;

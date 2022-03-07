@@ -67,18 +67,17 @@ const HomeWrapper = styled.div`
         font-weight: bolder;
         height: auto;
         margin: 5% 5% 0 5%;
-        pointer-events: none;
         position: sticky;
         top: 4vh;
-        z-index: 2;
+        z-index: 1;
       }
 
       .section-one-middle-text {
         font-weight: bolder;
         margin: 50vh 5% 200px 5%;
-        pointer-events: none;
         position: sticky;
         top: 160px;
+        z-index: 1;
       }
 
       .more-infos {
@@ -86,7 +85,6 @@ const HomeWrapper = styled.div`
         background: #ccc5d2;
         display: flex;
         font-size: 36px;
-        font-weight: bolder;
         justify-content: center;
         padding: 15vh 0;
         position: absolute;
@@ -97,9 +95,10 @@ const HomeWrapper = styled.div`
         }
 
         @media screen and (max-width: 820px) {
-          font-size: 30px;
-          position: relative;
-          z-index: 4;
+          font-size: 24px;
+          line-height: 53px;
+          position: sticky;
+          z-index: 10;
         }
       }
     }
