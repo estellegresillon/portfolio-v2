@@ -12,7 +12,9 @@ const Home = () => (
       <section className="section-one">
         <div className="section-one-container">
           <div className="section-one-top-text">
-            <div>A coder and UI lover</div>
+            <div>
+              <a id="project-section">A coder and UI lover</a>
+            </div>
             <div>building webapps for 4 years</div>
           </div>
           <Websites />
@@ -25,6 +27,7 @@ const Home = () => (
               </div>
             </div>
           </div>
+          <div className="sticky-bottom">ReactJs - Typescript</div>
           <Experiences />
           <div className="section-one-facts more-infos">
             <p>
@@ -35,7 +38,6 @@ const Home = () => (
           </div>
         </div>
       </section>
-      <div className="sticky-bottom">ReactJs - Typescript</div>
     </main>
     <Footer />
   </HomeWrapper>
@@ -47,7 +49,7 @@ const HomeWrapper = styled.div`
   color: white;
 
   main {
-    background: #fecdb7;
+    background: #9ecfd6;
     padding-bottom: 20vh;
 
     .section-one {
@@ -66,17 +68,17 @@ const HomeWrapper = styled.div`
         font-weight: bolder;
         margin: 50vh 15% 200px 5%;
         position: sticky;
-        top: 150px;
+        top: 160px;
       }
 
       .more-infos {
         align-items: center;
-        background: #fecdb7;
+        background: #ccc5d2;
         display: flex;
         font-size: 36px;
         font-weight: bolder;
         justify-content: center;
-        padding-top: 20vh;
+        padding: 15vh 0;
         position: absolute;
         width: 100%;
 
@@ -92,7 +94,7 @@ const HomeWrapper = styled.div`
       font-weight: bolder;
       letter-spacing: 2px;
       margin-right: 5%;
-      margin-top: 50vh;
+      margin: 10vh 5%;
       position: sticky;
       text-align: end;
       text-transform: uppercase;

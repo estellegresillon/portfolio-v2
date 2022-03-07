@@ -6,9 +6,15 @@ const Menu = () => (
       <Item>Estelle Grésillon</Item>
     </div>
     <div className="project-menu">
-      <Item>Projects</Item>
-      <Item>Career</Item>
-      <Item>Contact</Item>
+      <Item>
+        <a href="#project-section">Projects</a>
+      </Item>
+      <Item>
+        <a href="#career-section">Career</a>
+      </Item>
+      <Item>
+        <a href="#contact-section">Contact</a>
+      </Item>
     </div>
   </MenuWrapper>
 );
@@ -24,7 +30,6 @@ const MenuWrapper = styled.div`
   justify-content: space-between;
   left: 0;
   padding: 0 30px;
-  pointer-events: none;
   position: absolute;
   top: 0;
   width: calc(100% - 60px);
@@ -40,22 +45,14 @@ const MenuWrapper = styled.div`
     display: flex;
     font-size: 16px;
     white-space: nowrap;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 
   @media screen and (max-width: 768px) {
-    padding: 0 10px;
-    width: calc(100% - 20px);
-
-    .project-logo {
-      font-size: 16px;
-    }
-
-    .project-menu {
-      font-size: 12px;
-    }
-  }
-
-  body#force-mobile & {
     padding: 0 10px;
     width: calc(100% - 20px);
 
@@ -76,10 +73,6 @@ const Item = styled.div`
   text-decoration: none;
 
   @media screen and (max-width: 768px) {
-    margin: 10px;
-  }
-
-  body#force-mobile & {
     margin: 10px;
   }
 `;

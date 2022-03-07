@@ -23,7 +23,7 @@ const WebsitesWrapper = styled.div`
 
 const WebsiteWrapper = styled.div`
   align-items: flex-end;
-  background: #eeb399;
+  background: #78bec8;
   background-image: ${({ $image }) => `url(${$image})`};
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,11 +33,14 @@ const WebsiteWrapper = styled.div`
   display: flex;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  font-size: 36px;
+  font-weight: bolder;
   height: 70vh;
-  font-family: "Voyage";
   justify-content: flex-end;
+  letter-spacing: 5px;
   margin-bottom: 10%;
   opacity: 0.4;
+  text-transform: uppercase;
   transition: opacity 1s ease;
   width: 40%;
 

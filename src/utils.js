@@ -1,34 +1,50 @@
 export const CAREER = [
   {
     title: "Wifirst",
-    type: "Telecom",
-    image:
-      "https://static.wixstatic.com/media/4290cb_a761cae85167405a8db41f8a21d1dd36~mv2.jpg/v1/fill/w_966,h_1578,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOODBOARD_01.jpg",
-    skills: ["ReactJs", "Typescript", "Hooks"],
-    date: "2018",
+    skills: [
+      "Development of multiple internal ReactJs applications",
+      "Redux / Context React",
+      "Backend in RoR and data fetching with Axios and Graphql",
+      "Unit testing with Jest & Enzyme",
+      "Creation of a UI kit library",
+      "UI/UX design for the apps I created from scratch",
+    ],
+    date: "2017",
   },
   {
-    title: "Freelance",
-    type: "Various sectors",
-    image:
-      "https://static.wixstatic.com/media/4290cb_dc2716ad17aa4d4e949061faca228a3b~mv2.jpg/v1/fill/w_661,h_1080,al_c,q_85,enc_auto/4290cb_dc2716ad17aa4d4e949061faca228a3b~mv2.jpg",
-    skills: ["ReactJs", "Typescript", "Hooks"],
+    title: "Kardinal",
+    skills: [
+      "Development of a route optimization solution",
+      "ReactJs / Hooks / NextJs / Typescript",
+      "UI with Styled Components and AntDesign",
+      "Conception of 2 interactives maps with React MapGl",
+      "App performances improvement with memos and callbacks",
+      "Backend development with Node / NestJs",
+    ],
     date: "2020",
   },
   {
     title: "Saagie",
-    type: "Data Science",
-    image:
-      "https://static.wixstatic.com/media/4290cb_db211c7d3f09495bafa8205ec748797a~mv2.jpg/v1/fill/w_966,h_1578,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4290cb_db211c7d3f09495bafa8205ec748797a~mv2.jpg",
-    skills: ["ReactJs", "Typescript", "Hooks"],
+    skills: [
+      "Development of a Data Science project orchestrator",
+      "ReactJs / Typescript / Hooks",
+      "GraphQl / React Context",
+      "Styled Components & custom-made design system",
+      "Used React-Flow to schematize the pipelines flow",
+      "App migration to TS",
+    ],
     date: "2021",
   },
   {
     title: "Hivebrite",
-    type: "Community platform",
-    image:
-      "https://static.wixstatic.com/media/4290cb_a761cae85167405a8db41f8a21d1dd36~mv2.jpg/v1/fill/w_966,h_1578,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOODBOARD_01.jpg",
-    skills: ["ReactJs", "Typescript", "Hooks"],
+    skills: [
+      "Development of a component and page builder",
+      "ReactJs / Typescript / Hooks",
+      "State management with React Context",
+      "SemaphoreCI for preprod deployments",
+      "Testing with react-testing-library and Jest",
+      "UI with Storybook and Styled Components",
+    ],
     date: "2022",
   },
 ];
@@ -48,12 +64,13 @@ export const WEBSITES = [
     component: null,
     image: "builder.png",
   },
+
   {
-    name: "Elden Delivery",
-    subtitle: "One Page",
-    link: "https://elden.estellegresillon.fr",
+    name: "Foodlab",
+    subtitle: "School Project - Find the best restaurant in Paris",
+    link: "https://foodlab.estellegresillon.fr/",
     component: null,
-    image: "elden.png",
+    image: "foodlab.png",
   },
   {
     name: "Flow",
@@ -84,19 +101,20 @@ export const WEBSITES = [
     image: "zest.png",
   },
   {
+    name: "Elden Delivery",
+    subtitle: "One Page",
+    link: "https://elden.estellegresillon.fr",
+    component: null,
+    image: "elden.png",
+  },
+  {
     name: "IP Tracker",
     subtitle: "Detect user IP + Locate desired IP",
     link: "http://iptracker.estellegresillon.fr",
     component: null,
     image: "iptracker.png",
   },
-  {
-    name: "Foodlab",
-    subtitle: "School Project - Find the best restaurant in Paris",
-    link: "https://foodlab.estellegresillon.fr/",
-    component: null,
-    image: "foodlab.png",
-  },
+
   {
     name: "That's My Rock",
     subtitle: "School Project - The best albums ever made",

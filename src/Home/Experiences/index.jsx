@@ -9,13 +9,22 @@ const Experiences = () => (
         <div className="section-one-facts-inner">
           <div className="description-wrapper">
             <div className="description-top">
-              <p>
-                {experience.date} - {experience.title}
-              </p>
+              {experience.title === "Wifirst" ? (
+                <p>
+                  <a id="career-section">
+                    {experience.date} - {experience.title}
+                  </a>
+                </p>
+              ) : (
+                <p>
+                  {experience.date} - {experience.title}
+                </p>
+              )}
             </div>
             <div className="description-bottom">
-              <p>{experience.type}</p>
-              <p>ReactJs / Typescript / Hooks / Context</p>
+              {experience.skills.map((skill) => (
+                <p key={skill}>{skill}</p>
+              ))}
             </div>
           </div>
           <div className="img-wrapper">
@@ -31,7 +40,7 @@ export default Experiences;
 
 const ExperiencesWrapper = styled.div`
   .section-one-facts {
-    height: 100vh;
+    height: 105vh;
     position: sticky;
     top: 0;
     width: 100%;
@@ -89,8 +98,14 @@ const ExperiencesWrapper = styled.div`
           font-size: 24px;
           height: 30%;
           justify-content: flex-end;
-          padding: 10vh 10%;
+          padding: 15vh 10%;
           width: 100%;
+
+          p {
+            font-size: 20px;
+            margin-bottom: 15px;
+            width: 80%;
+          }
         }
       }
 
