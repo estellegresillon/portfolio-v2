@@ -34,8 +34,9 @@ const HeroSceneWrapper = styled.div`
 
   h1 {
     font-size: 113px;
-    position: absolute;
     font-family: "Voyage";
+    position: absolute;
+    width: 80%;
   }
 
   .hero-left {

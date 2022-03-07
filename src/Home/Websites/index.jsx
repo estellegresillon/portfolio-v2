@@ -5,7 +5,15 @@ import { WEBSITES } from "utils";
 const Websites = () => (
   <WebsitesWrapper>
     {WEBSITES.map((website) => (
-      <WebsiteWrapper key={website.name} $image={website.image}>
+      <WebsiteWrapper
+        alt={website.name}
+        as="a"
+        href={website.link}
+        $image={website.image}
+        key={website.name}
+        target="_blank"
+        rel="noopener noreferer"
+      >
         <p>{website.name}</p>
       </WebsiteWrapper>
     ))}
@@ -19,6 +27,11 @@ const WebsitesWrapper = styled.div`
   flex-wrap: wrap;
   margin: 10%;
   width: 90%;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
 `;
 
 const WebsiteWrapper = styled.div`
@@ -28,7 +41,6 @@ const WebsiteWrapper = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  color: black;
   cursor: pointer;
   display: flex;
   -webkit-filter: grayscale(100%);

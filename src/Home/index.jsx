@@ -67,6 +67,7 @@ const HomeWrapper = styled.div`
         font-weight: bolder;
         height: auto;
         margin: 5% 5% 0 5%;
+        pointer-events: none;
         position: sticky;
         top: 4vh;
         z-index: 2;
@@ -75,6 +76,7 @@ const HomeWrapper = styled.div`
       .section-one-middle-text {
         font-weight: bolder;
         margin: 50vh 5% 200px 5%;
+        pointer-events: none;
         position: sticky;
         top: 160px;
       }
@@ -109,6 +111,7 @@ const HomeWrapper = styled.div`
       letter-spacing: 2px;
       margin-right: 5%;
       margin: 10vh 5%;
+      pointer-events: none;
       position: sticky;
       text-align: end;
       text-transform: uppercase;

@@ -28,7 +28,7 @@ const Experiences = () => (
             </div>
           </div>
           <div className="img-wrapper">
-            <img alt={experience.title} src={`${experience.title}.png`} />
+            <img alt={experience.title} src={`${experience.title}.jpeg`} />
           </div>
         </div>
       </div>
