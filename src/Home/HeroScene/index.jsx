@@ -72,7 +72,7 @@ const HeroSceneWrapper = styled.div`
     position: absolute;
     width: 21px;
     height: 40px;
-    bottom: 3vh;
+    bottom: 5vh;
     left: calc(50vw - 13px);
     border: 3px solid white;
     border-radius: 32px;

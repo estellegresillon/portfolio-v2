@@ -6,15 +6,14 @@ const Websites = () => (
   <WebsitesWrapper>
     {WEBSITES.map((website) => (
       <WebsiteWrapper
-        alt={website.name}
-        as="a"
-        href={website.link}
-        $image={website.image}
         key={website.name}
+        as="a"
         target="_blank"
         rel="noopener noreferer"
+        href={website.link}
       >
-        <p>{website.name}</p>
+        <ImageWrapper alt={website.name} $image={website.image} />
+        <div className="title-exp">{website.name}</div>
       </WebsiteWrapper>
     ))}
   </WebsitesWrapper>
@@ -27,56 +26,70 @@ const WebsitesWrapper = styled.div`
   flex-wrap: wrap;
   margin: 10%;
   width: 90%;
+  position: relative;
+  white-space: pre-line;
 
   a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
 `;
 
 const WebsiteWrapper = styled.div`
   align-items: flex-end;
-  background: #78bec8;
-  background-image: ${({ $image }) => `url(${$image})`};
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
   cursor: pointer;
   display: flex;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  font-size: 36px;
+  font-size: 56px;
   font-weight: bolder;
   height: 70vh;
   justify-content: flex-end;
   letter-spacing: 5px;
   margin-bottom: 10%;
-  opacity: 0.4;
+  position: relative;
+  text-align: right;
   text-transform: uppercase;
-  transition: opacity 1s ease;
   width: 40%;
-
-  &:hover {
-    -webkit-filter: none;
-    filter: none;
-    opacity: 1;
-  }
 
   &:nth-child(2n) {
     margin-left: 10%;
     margin-top: -35vh;
   }
 
-  p {
+  .title-exp {
+    bottom: 0;
     margin: 15px 20px;
+    position: absolute;
+    right: 0;
+    width: 80%;
   }
 
   @media screen and (max-width: 820px) {
+    font-size: 36px;
     width: 90%;
 
     &:nth-child(2n) {
       margin-left: 0%;
       margin-top: auto;
     }
+  }
+`;
+
+const ImageWrapper = styled.div`
+  background: #78bec8;
+  background-image: ${({ $image }) => `url(${$image})`};
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 100%;
+  opacity: 0.2;
+  transition: opacity 1s ease;
+  width: 100%;
+
+  &:hover {
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1;
   }
 `;

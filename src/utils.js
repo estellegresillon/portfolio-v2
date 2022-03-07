@@ -76,7 +76,7 @@ export const WEBSITES = [
     image: "flow.jpeg",
   },
   {
-    name: "Games Playground",
+    name: "Games Play Ground",
     subtitle: "Including Worldle, Tetris, Rocker Paper Scissors and others",
     link: "https://playground.estellegresillon.fr",
     image: "playground.jpeg",
