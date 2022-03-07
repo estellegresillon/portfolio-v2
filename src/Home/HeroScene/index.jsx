@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeroScene = () => (
   <HeroSceneWrapper>
-    <h1>Frontend Developer</h1>
+    <h1>ReactJs Frontend Developer</h1>
     <div className="hero-left">
       <video src="video2.mp4" autoPlay loop muted>
         <img
@@ -29,6 +29,7 @@ const HeroSceneWrapper = styled.div`
   height: 100vh;
   margin-bottom: 250px;
   position: relative;
+  text-align: center;
   width: 100vw;
 
   h1 {
@@ -82,6 +83,20 @@ const HeroSceneWrapper = styled.div`
       border-radius: 50%;
       background-color: white;
       animation: 4s scrollBall infinite;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    h1 {
+      font-size: 64px;
+    }
+
+    .hero-right {
+      display: none;
+    }
+
+    .hero-left {
+      width: 100%;
     }
   }
 `;

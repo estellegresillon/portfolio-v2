@@ -68,12 +68,27 @@ const ExperiencesWrapper = styled.div`
       }
     }
 
+    @media screen and (max-width: 820px) {
+      background: #f0ac8e;
+      height: auto;
+      position: relative;
+
+      .section-one-facts-inner .description-wrapper .description-top {
+        margin-top: 10vh !important;
+      }
+    }
+
     .section-one-facts-inner {
       display: flex;
       font-size: 16px;
       height: 100%;
       text-align: right;
       width: 100vw;
+
+      @media screen and (max-width: 820px) {
+        flex-direction: column-reverse;
+        height: auto;
+      }
 
       .description-wrapper {
         align-items: flex-end;
@@ -128,6 +143,21 @@ const ExperiencesWrapper = styled.div`
             webkit-filter: none;
             filter: none;
             opacity: 1;
+          }
+        }
+      }
+
+      @media screen and (max-width: 820px) {
+        .img-wrapper {
+          height: 50vh;
+          width: 100%;
+        }
+
+        .description-wrapper {
+          width: 100%;
+
+          .description-bottom {
+            padding: 5vh 10% 10vh;
           }
         }
       }

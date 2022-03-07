@@ -27,7 +27,7 @@ const Home = () => (
               </div>
             </div>
           </div>
-          <div className="sticky-bottom">ReactJs - Typescript</div>
+          <div className="sticky-bottom">Hooks - Typescript</div>
           <Experiences />
           <div className="section-one-facts more-infos">
             <p>
@@ -52,13 +52,21 @@ const HomeWrapper = styled.div`
     background: #9ecfd6;
     padding-bottom: 20vh;
 
+    @media screen and (max-width: 820px) {
+      padding-bottom: 0;
+    }
+
     .section-one {
       font-size: 46px;
+
+      @media screen and (max-width: 820px) {
+        font-size: 32px;
+      }
 
       .section-one-top-text {
         font-weight: bolder;
         height: auto;
-        margin: 5% 0 0 5%;
+        margin: 5% 5% 0 5%;
         position: sticky;
         top: 4vh;
         z-index: 2;
@@ -66,7 +74,7 @@ const HomeWrapper = styled.div`
 
       .section-one-middle-text {
         font-weight: bolder;
-        margin: 50vh 15% 200px 5%;
+        margin: 50vh 5% 200px 5%;
         position: sticky;
         top: 160px;
       }
@@ -84,6 +92,12 @@ const HomeWrapper = styled.div`
 
         p {
           width: 70%;
+        }
+
+        @media screen and (max-width: 820px) {
+          font-size: 30px;
+          position: relative;
+          z-index: 4;
         }
       }
     }

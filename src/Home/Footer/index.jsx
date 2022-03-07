@@ -35,4 +35,18 @@ const FooterWrapper = styled.div`
     margin-bottom: 10px;
     margin-right: 10vw;
   }
+
+  @media screen and (max-width: 820px) {
+    height: 100vh;
+    font-size: 36px;
+    margin-top: 0;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    font-size: 20px;
+  }
 `;

@@ -58,4 +58,13 @@ const WebsiteWrapper = styled.div`
   p {
     margin: 15px 20px;
   }
+
+  @media screen and (max-width: 820px) {
+    width: 90%;
+
+    &:nth-child(2n) {
+      margin-left: 0%;
+      margin-top: auto;
+    }
+  }
 `;
