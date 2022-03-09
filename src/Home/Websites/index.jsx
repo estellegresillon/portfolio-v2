@@ -13,7 +13,12 @@ const Websites = () => (
         href={website.link}
       >
         <ImageWrapper alt={website.name} $image={website.image} />
-        <div className="title-exp">{website.name}</div>
+        <div className="website-description">
+          <div className="title-exp">{website.name}</div>
+          <div className="subtitle-exp">
+            {website.subtitle.replace("-", "\u2011")}
+          </div>
+        </div>
       </WebsiteWrapper>
     ))}
   </WebsitesWrapper>
@@ -39,15 +44,12 @@ const WebsiteWrapper = styled.div`
   align-items: flex-end;
   cursor: pointer;
   display: flex;
-  font-size: 56px;
   font-weight: bolder;
   height: 70vh;
   justify-content: flex-end;
-  letter-spacing: 5px;
   margin-bottom: 10%;
   position: relative;
   text-align: right;
-  text-transform: uppercase;
   width: 40%;
 
   &:nth-child(2n) {
@@ -55,12 +57,22 @@ const WebsiteWrapper = styled.div`
     margin-top: -35vh;
   }
 
-  .title-exp {
+  .website-description {
     bottom: 0;
     margin: 15px 20px;
     position: absolute;
     right: 0;
     width: 80%;
+
+    .title-exp {
+      letter-spacing: 5px;
+      font-size: 56px;
+      text-transform: uppercase;
+    }
+
+    .subtitle-exp {
+      font-size: 20px;
+    }
   }
 
   @media screen and (max-width: 820px) {

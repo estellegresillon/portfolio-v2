@@ -52,22 +52,15 @@ export const CAREER = [
 export const WEBSITES = [
   {
     name: "Jiro",
-    subtitle: "Ticketing app made with react-beautiful-dnd",
+    subtitle: "Task manager made with react-beautiful-dnd",
     link: "https://jiro.estellegresillon.fr",
     image: "jiro.jpeg",
   },
   {
     name: "Page builder",
-    subtitle: "A demo page builder with custom components and dnd",
+    subtitle: "A demo with custom components and dnd",
     link: "https://builder.estellegresillon.fr",
     image: "builder.jpeg",
-  },
-
-  {
-    name: "Foodlab",
-    subtitle: "School Project - Find the best restaurant in Paris",
-    link: "https://foodlab.estellegresillon.fr/",
-    image: "foodlab.jpeg",
   },
   {
     name: "Flow",
@@ -82,36 +75,41 @@ export const WEBSITES = [
     image: "playground.jpeg",
   },
   {
+    name: "Zest",
+    subtitle: "Neobank One Page",
+    link: "https://zest.estellegresillon.fr",
+    image: "zest.jpeg",
+  },
+  {
     name: "Firebase Chat",
     subtitle: "React chat hosted with Firebase",
     link: "https://chat.estellegresillon.fr",
     image: null,
   },
   {
-    name: "Zest Neobank",
-    subtitle: "One Page",
-    link: "https://zest.estellegresillon.fr",
-    image: "zest.jpeg",
+    name: "Foodlab",
+    subtitle: "School Project - Find the best restaurant in Paris",
+    link: "https://foodlab.estellegresillon.fr/",
+    image: "foodlab.jpeg",
   },
-  {
-    name: "Elden Delivery",
-    subtitle: "One Page",
-    link: "https://elden.estellegresillon.fr",
-    image: "elden.jpeg",
-  },
-  {
-    name: "IP Tracker",
-    subtitle: "Detect user IP + Locate desired IP",
-    link: "http://iptracker.estellegresillon.fr",
-    image: "iptracker.jpeg",
-  },
-
   {
     name: "That's My Rock",
     subtitle: "School Project - The best albums ever made",
     link: "http://thatsmyrock.com",
     image: "thatsmyrock.jpeg",
   },
+  // {
+  //   name: "Elden Delivery",
+  //   subtitle: "One Page",
+  //   link: "https://elden.estellegresillon.fr",
+  //   image: "elden.jpeg",
+  // },
+  // {
+  //   name: "IP Tracker",
+  //   subtitle: "Detect user IP + Locate desired IP",
+  //   link: "http://iptracker.estellegresillon.fr",
+  //   image: "iptracker.jpeg",
+  // },
 ];
 
 export const SOCIAL_LINKS = [
