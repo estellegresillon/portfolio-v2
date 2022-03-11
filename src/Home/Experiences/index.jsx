@@ -49,29 +49,29 @@ const ExperiencesWrapper = styled.div`
     z-index: 3;
 
     &:first-child {
-      background: #f0ac8e;
+      background: #e4c6b8;
     }
 
     &:nth-child(2) {
       .section-one-facts-inner .description-wrapper .description-top {
-        margin-top: calc(5vh + 50px);
+        margin-top: calc(5vh + 70px);
       }
     }
 
     &:nth-child(3) {
       .section-one-facts-inner .description-wrapper .description-top {
-        margin-top: calc(5vh + 100px);
+        margin-top: calc(5vh + 140px);
       }
     }
 
     &:nth-child(4) {
       .section-one-facts-inner .description-wrapper .description-top {
-        margin-top: calc(5vh + 150px);
+        margin-top: calc(5vh + 210px);
       }
     }
 
     @media screen and (max-width: 820px) {
-      background: #f0ac8e;
+      background: #e4c6b8;
       height: auto;
       z-index: 3;
 
@@ -109,7 +109,7 @@ const ExperiencesWrapper = styled.div`
 
         .description-bottom {
           align-items: flex-end;
-          background: #f0ac8e;
+          background: #e4c6b8;
           display: flex;
           flex-direction: column;
           font-size: 24px;

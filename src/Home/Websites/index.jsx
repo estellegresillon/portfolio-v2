@@ -97,7 +97,7 @@ const ImageWrapper = styled.div`
   filter: grayscale(100%);
   height: 100%;
   opacity: 0.2;
-  transition: opacity 1s ease;
+  transition: opacity 0.5s ease;
   width: 100%;
 
   &:hover {

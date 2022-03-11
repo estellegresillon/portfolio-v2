@@ -24,11 +24,11 @@ const FooterWrapper = styled.div`
   background-size: cover;
   display: flex;
   flex-direction: column;
-  font-size: 42px;
+  font-size: 36px;
   font-weight: bolder;
   height: 65vh;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 200px;
   width: 100vw;
 
   p {

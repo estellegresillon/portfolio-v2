@@ -1,23 +1,41 @@
+import { useEffect } from "react";
 import styled from "styled-components";
 
-const HeroScene = () => (
-  <HeroSceneWrapper>
-    <h1>ReactJs Frontend Developer</h1>
-    <div className="hero-left">
-      <video src="video2.mp4" autoPlay loop muted>
-        <img
-          src="video2-placeholder.jpeg"
-          alt="video not supported"
-          title="Your browser does not support the <video> tag"
-        />
-      </video>
-    </div>
-    <div className="hero-right"></div>
-    <div className="scroll-animation">
-      <div className="mouse-scroll-ball" />
-    </div>
-  </HeroSceneWrapper>
-);
+const HeroScene = () => {
+  useEffect(() => {
+    const video = document.getElementById("myVideo");
+
+    video.oncanplaythrough = () => {
+      video.muted = true;
+      video.play();
+    };
+  }, []);
+
+  return (
+    <HeroSceneWrapper>
+      <h1>ReactJs Frontend Developer</h1>
+      <div className="hero-left">
+        <video
+          muted={true}
+          autoPlay={true}
+          loop={true}
+          id="myVideo"
+          src="video2.mp4"
+        >
+          <img
+            src="video2-placeholder.jpeg"
+            alt="video not supported"
+            title="Your browser does not support the <video> tag"
+          />
+        </video>
+      </div>
+      <div className="hero-right"></div>
+      <div className="scroll-animation">
+        <div className="mouse-scroll-ball" />
+      </div>
+    </HeroSceneWrapper>
+  );
+};
 
 export default HeroScene;
 

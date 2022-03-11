@@ -50,6 +50,7 @@ const HomeWrapper = styled.div`
 
   main {
     background: #9ecfd6;
+    background: #2f3649;
     padding-bottom: 20vh;
 
     @media screen and (max-width: 820px) {
@@ -57,7 +58,7 @@ const HomeWrapper = styled.div`
     }
 
     .section-one {
-      font-size: 46px;
+      font-size: 56px;
 
       @media screen and (max-width: 820px) {
         font-size: 32px;
@@ -74,15 +75,15 @@ const HomeWrapper = styled.div`
 
       .section-one-middle-text {
         font-weight: bolder;
-        margin: 50vh 5% 200px 5%;
+        margin: 55vh 5%;
         position: sticky;
-        top: 160px;
+        top: 170px;
         z-index: 1;
       }
 
       .more-infos {
         align-items: center;
-        background: #ccc5d2;
+        background: #e4c6b8;
         display: flex;
         font-size: 36px;
         justify-content: center;
