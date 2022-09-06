@@ -24,15 +24,14 @@ export default SocialLinks;
 
 const SocialLinksWrapper = styled.div`
   display: flex;
-  font-size: 36px;
+  font-size: 24px;
   justify-content: flex-end;
   margin-right: 10vw;
   margin-top: 30px;
 
   a {
-    color: white;
-
     i {
+      color: #ccc;
       margin-left: 50px;
 
       &:hover {

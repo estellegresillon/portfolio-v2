@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Gilroy";
-  font-weight: bold;
-  src: local("Gilroy"), url(./fonts/Gilroy-ExtraBold.otf) format("woff");
+  font-weight: normal;
+  src: local("Gilroy"), url(./fonts/Graphik-Light-Web.woff2) format("woff");
 }
 
 @font-face {
@@ -11,8 +11,10 @@
 }
 
 body {
+  color: #ccc;
   margin: 0;
   font-family: "Gilroy", sans-serif;
+  letter-spacing: -0.05vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;

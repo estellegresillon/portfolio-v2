@@ -59,19 +59,23 @@ const WebsiteWrapper = styled.div`
 
   .website-description {
     bottom: 0;
+    letter-spacing: normal;
     margin: 15px 20px;
     position: absolute;
     right: 0;
     width: 80%;
 
     .title-exp {
-      letter-spacing: 5px;
-      font-size: 56px;
-      text-transform: uppercase;
+      font-size: 48px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+      text-transform: capitalize;
     }
 
     .subtitle-exp {
       font-size: 20px;
+      margin-bottom: 10px;
+      margin-right: 5px;
     }
   }
 

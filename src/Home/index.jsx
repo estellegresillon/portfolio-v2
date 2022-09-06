@@ -13,9 +13,9 @@ const Home = () => (
         <div className="section-one-container">
           <div className="section-one-top-text">
             <div>
-              <a id="project-section">A coder and UI lover</a>
+              <a id="project-section">React - Vue - Typescript</a>
             </div>
-            <div>building webapps for 4 years</div>
+            <div>Hooks / Composition API</div>
           </div>
           <Websites />
           <div className="section-one-middle-text">
@@ -27,7 +27,6 @@ const Home = () => (
               </div>
             </div>
           </div>
-          <div className="sticky-bottom">Hooks - Typescript</div>
           <Experiences />
           <div className="section-one-facts more-infos">
             <p>
@@ -46,11 +45,8 @@ const Home = () => (
 export default Home;
 
 const HomeWrapper = styled.div`
-  color: white;
-
   main {
-    background: #9ecfd6;
-    background: #2f3649;
+    background: #5b5b5b;
     padding-bottom: 20vh;
 
     @media screen and (max-width: 820px) {
@@ -58,14 +54,11 @@ const HomeWrapper = styled.div`
     }
 
     .section-one {
-      font-size: 56px;
-
-      @media screen and (max-width: 820px) {
-        font-size: 32px;
-      }
+      font-size: 32px;
 
       .section-one-top-text {
-        font-weight: bolder;
+        line-height: 40px;
+        font-size: 24px;
         height: auto;
         margin: 5% 5% 0 5%;
         position: sticky;
@@ -77,13 +70,13 @@ const HomeWrapper = styled.div`
         font-weight: bolder;
         margin: 55vh 5%;
         position: sticky;
-        top: 170px;
+        top: 130px;
         z-index: 1;
       }
 
       .more-infos {
         align-items: center;
-        background: #e4c6b8;
+        background: #1b1b1b;
         display: flex;
         font-size: 36px;
         justify-content: center;

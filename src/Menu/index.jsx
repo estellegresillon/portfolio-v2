@@ -24,7 +24,6 @@ export default Menu;
 const MenuWrapper = styled.div`
   align-items: center;
   background-color: transparent;
-  color: white;
   display: flex;
   height: 90px;
   justify-content: space-between;
@@ -47,7 +46,7 @@ const MenuWrapper = styled.div`
     white-space: nowrap;
 
     a {
-      color: white;
+      color: #ccc;
       text-decoration: none;
     }
   }

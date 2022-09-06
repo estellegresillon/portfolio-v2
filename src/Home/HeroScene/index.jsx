@@ -13,7 +13,10 @@ const HeroScene = () => {
 
   return (
     <HeroSceneWrapper>
-      <h1>ReactJs Frontend Developer</h1>
+      <div className="hero-title">
+        <h1>React & Vue Developer</h1>
+        <h2>I'm a coder and UI lover building webapps for 5 years</h2>
+      </div>
       <div className="hero-left">
         <video
           muted={true}
@@ -41,27 +44,31 @@ export default HeroScene;
 
 const HeroSceneWrapper = styled.div`
   align-items: center;
-  background: #f8beb7;
+  background: black;
   display: flex;
   justify-content: center;
   height: 100vh;
   margin-bottom: 250px;
   position: relative;
-  text-align: center;
   width: 100vw;
 
-  h1 {
-    font-size: 113px;
-    font-family: "Voyage";
+  .hero-title {
+    letter-spacing: normal;
     position: absolute;
-    width: 80%;
+  }
+
+  h1 {
+    font-size: 90px;
+    font-family: "Voyage";
   }
 
   .hero-left {
     overflow: hidden;
 
     video {
+      filter: contrast(300%) grayscale(100%);
       height: 100%;
+      opacity: 20%;
       width: 177.77777778vh;
     }
   }
@@ -92,7 +99,7 @@ const HeroSceneWrapper = styled.div`
     height: 40px;
     bottom: 5vh;
     left: calc(50vw - 13px);
-    border: 3px solid white;
+    border: 3px solid #ccc;
     border-radius: 32px;
 
     .mouse-scroll-ball {
@@ -100,7 +107,7 @@ const HeroSceneWrapper = styled.div`
       height: 6px;
       margin-top: 10px;
       border-radius: 50%;
-      background-color: white;
+      background-color: #ccc;
       animation: 4s scrollBall infinite;
     }
   }

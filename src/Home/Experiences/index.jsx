@@ -49,7 +49,7 @@ const ExperiencesWrapper = styled.div`
     z-index: 3;
 
     &:first-child {
-      background: #e4c6b8;
+      background: #1b1b1b;
     }
 
     &:nth-child(2) {
@@ -71,7 +71,7 @@ const ExperiencesWrapper = styled.div`
     }
 
     @media screen and (max-width: 820px) {
-      background: #e4c6b8;
+      background: #1b1b1b;
       height: auto;
       z-index: 3;
 
@@ -109,7 +109,7 @@ const ExperiencesWrapper = styled.div`
 
         .description-bottom {
           align-items: flex-end;
-          background: #e4c6b8;
+          background: #1b1b1b;
           display: flex;
           flex-direction: column;
           font-size: 24px;

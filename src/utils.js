@@ -58,7 +58,7 @@ export const WEBSITES = [
   },
   {
     name: "Page builder",
-    subtitle: "A demo with custom components and dnd",
+    subtitle: "A demo with custom components and drag and drop",
     link: "https://builder.estellegresillon.fr",
     image: "builder.jpeg",
   },
