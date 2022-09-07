@@ -46,7 +46,7 @@ export default Home;
 
 const HomeWrapper = styled.div`
   main {
-    background: #5b5b5b;
+    background: black;
     padding-bottom: 20vh;
 
     @media screen and (max-width: 820px) {

@@ -49,7 +49,7 @@ const ExperiencesWrapper = styled.div`
     z-index: 3;
 
     &:first-child {
-      background: #1b1b1b;
+      background: #000;
     }
 
     &:nth-child(2) {

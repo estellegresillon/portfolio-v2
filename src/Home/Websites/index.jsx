@@ -57,12 +57,18 @@ const WebsiteWrapper = styled.div`
     margin-top: -35vh;
   }
 
+  &:hover {
+    color: black;
+  }
+
   .website-description {
     bottom: 0;
     letter-spacing: normal;
     margin: 15px 20px;
+    pointer-events: none;
     position: absolute;
     right: 0;
+    user-select: none;
     width: 80%;
 
     .title-exp {

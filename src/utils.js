@@ -51,10 +51,10 @@ export const CAREER = [
 
 export const WEBSITES = [
   {
-    name: "Jiro",
-    subtitle: "Task manager made with react-beautiful-dnd",
-    link: "https://jiro.estellegresillon.fr",
-    image: "jiro.jpeg",
+    name: "Dune",
+    subtitle: "Fullscreen slideshow made with GSAP",
+    link: "https://dune.estellegresillon.fr",
+    image: "dune.jpeg",
   },
   {
     name: "Page builder",
@@ -63,10 +63,10 @@ export const WEBSITES = [
     image: "builder.jpeg",
   },
   {
-    name: "Flow",
-    subtitle: "Diagrams made with React Flow",
-    link: "https://flow.estellegresillon.fr",
-    image: "flow.jpeg",
+    name: "Jiro",
+    subtitle: "Task manager made with react-beautiful-dnd",
+    link: "https://jiro.estellegresillon.fr",
+    image: "jiro.jpeg",
   },
   {
     name: "Games Play Ground",
@@ -98,18 +98,6 @@ export const WEBSITES = [
     link: "http://thatsmyrock.com",
     image: "thatsmyrock.jpeg",
   },
-  // {
-  //   name: "Elden Delivery",
-  //   subtitle: "One Page",
-  //   link: "https://elden.estellegresillon.fr",
-  //   image: "elden.jpeg",
-  // },
-  // {
-  //   name: "IP Tracker",
-  //   subtitle: "Detect user IP + Locate desired IP",
-  //   link: "http://iptracker.estellegresillon.fr",
-  //   image: "iptracker.jpeg",
-  // },
 ];
 
 export const SOCIAL_LINKS = [
