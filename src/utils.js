@@ -63,16 +63,22 @@ export const WEBSITES = [
     image: "builder.jpeg",
   },
   {
-    name: "Jiro",
-    subtitle: "Task manager made with react-beautiful-dnd",
-    link: "https://jiro.estellegresillon.fr",
-    image: "jiro.jpeg",
+    name: "Cvatik",
+    subtitle: "Photographer portfolio made with a magnetic 3D hover effect",
+    link: "https://cvatik.estellegresillon.fr",
+    image: "cvatik.jpeg",
   },
   {
     name: "Baroque",
     subtitle: "Baroque monument showcased in an infinite scroll loop",
     link: "https://baroque.estellegresillon.fr",
     image: "baroque.jpeg",
+  },
+  {
+    name: "Jiro",
+    subtitle: "Task manager made with react-beautiful-dnd",
+    link: "https://jiro.estellegresillon.fr",
+    image: "jiro.jpeg",
   },
   {
     name: "Games Play Ground",
@@ -104,12 +110,12 @@ export const WEBSITES = [
     link: "http://thatsmyrock.com",
     image: "thatsmyrock.jpeg",
   },
-  {
-    name: "Flow",
-    subtitle: "Diagrams made with React Flow",
-    link: "https://flow.estellegresillon.fr",
-    image: "flow.jpeg",
-  },
+  // {
+  //   name: "Flow",
+  //   subtitle: "Diagrams made with React Flow",
+  //   link: "https://flow.estellegresillon.fr",
+  //   image: "flow.jpeg",
+  // },
 ];
 
 export const SOCIAL_LINKS = [
