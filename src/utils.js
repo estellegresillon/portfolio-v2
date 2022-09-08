@@ -57,7 +57,7 @@ export const WEBSITES = [
     image: "dune.jpeg",
   },
   {
-    name: "Page builder",
+    name: "Page Builder",
     subtitle: "A demo with custom components and drag and drop",
     link: "https://builder.estellegresillon.fr",
     image: "builder.jpeg",
@@ -67,6 +67,12 @@ export const WEBSITES = [
     subtitle: "Task manager made with react-beautiful-dnd",
     link: "https://jiro.estellegresillon.fr",
     image: "jiro.jpeg",
+  },
+  {
+    name: "Baroque",
+    subtitle: "Baroque monument showcased in an infinite scroll loop",
+    link: "https://baroque.estellegresillon.fr",
+    image: "baroque.jpeg",
   },
   {
     name: "Games Play Ground",
@@ -97,6 +103,12 @@ export const WEBSITES = [
     subtitle: "School Project - The best albums ever made",
     link: "http://thatsmyrock.com",
     image: "thatsmyrock.jpeg",
+  },
+  {
+    name: "Flow",
+    subtitle: "Diagrams made with React Flow",
+    link: "https://flow.estellegresillon.fr",
+    image: "flow.jpeg",
   },
 ];
 
