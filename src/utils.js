@@ -51,10 +51,10 @@ export const CAREER = [
 
 export const WEBSITES = [
   {
-    name: "Dune",
-    subtitle: "Fullscreen slideshow made with GSAP",
-    link: "https://dune.estellegresillon.fr",
-    image: "dune.jpeg",
+    name: "Cvatik",
+    subtitle: "Photographer portfolio made with a magnetic 3D hover effect",
+    link: "https://cvatik.estellegresillon.fr",
+    image: "cvatik.jpeg",
   },
   {
     name: "Page Builder",
@@ -63,16 +63,16 @@ export const WEBSITES = [
     image: "builder.jpeg",
   },
   {
-    name: "Cvatik",
-    subtitle: "Photographer portfolio made with a magnetic 3D hover effect",
-    link: "https://cvatik.estellegresillon.fr",
-    image: "cvatik.jpeg",
+    name: "Dune",
+    subtitle: "Fullscreen slideshow made with GSAP",
+    link: "https://dune.estellegresillon.fr",
+    image: "dune.jpeg",
   },
   {
-    name: "Baroque",
-    subtitle: "Baroque monument showcased in an infinite scroll loop",
-    link: "https://baroque.estellegresillon.fr",
-    image: "baroque.jpeg",
+    name: "Games Play Ground",
+    subtitle: "Including Worldle, Tetris, Rocker Paper Scissors and others",
+    link: "https://playground.estellegresillon.fr",
+    image: "playground.jpeg",
   },
   {
     name: "Jiro",
@@ -81,10 +81,10 @@ export const WEBSITES = [
     image: "jiro.jpeg",
   },
   {
-    name: "Games Play Ground",
-    subtitle: "Including Worldle, Tetris, Rocker Paper Scissors and others",
-    link: "https://playground.estellegresillon.fr",
-    image: "playground.jpeg",
+    name: "Baroque",
+    subtitle: "Baroque monument showcased in an infinite scroll loop",
+    link: "https://baroque.estellegresillon.fr",
+    image: "baroque.jpeg",
   },
   {
     name: "Zest",
