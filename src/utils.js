@@ -75,6 +75,12 @@ export const WEBSITES = [
     image: "builder.jpeg",
   },
   {
+    name: "Interior Design",
+    subtitle: "Home decor portfolio with animated page transition",
+    link: "https://decor.estellegresillon.fr",
+    image: "decor.jpeg",
+  },
+  {
     name: "Baroque",
     subtitle: "Baroque monument showcased in an infinite scroll loop",
     link: "https://baroque.estellegresillon.fr",
@@ -91,12 +97,6 @@ export const WEBSITES = [
     subtitle: "Including Worldle, Tetris, Rocker Paper Scissors and others",
     link: "https://playground.estellegresillon.fr",
     image: "playground.jpeg",
-  },
-  {
-    name: "Jiro",
-    subtitle: "Task manager made with react-beautiful-dnd",
-    link: "https://jiro.estellegresillon.fr",
-    image: "jiro.jpeg",
   },
   {
     name: "Foodlab",
