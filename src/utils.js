@@ -57,10 +57,10 @@ export const WEBSITES = [
     image: "cvatik.jpeg",
   },
   {
-    name: "Page Builder",
-    subtitle: "A demo with custom components and drag and drop",
-    link: "https://builder.estellegresillon.fr",
-    image: "builder.jpeg",
+    name: "Travels",
+    subtitle: "My own photography portfolio",
+    link: "https://travels.estellegresillon.fr",
+    image: "travels.jpeg",
   },
   {
     name: "Dune",
@@ -69,16 +69,10 @@ export const WEBSITES = [
     image: "dune.jpeg",
   },
   {
-    name: "Games Play Ground",
-    subtitle: "Including Worldle, Tetris, Rocker Paper Scissors and others",
-    link: "https://playground.estellegresillon.fr",
-    image: "playground.jpeg",
-  },
-  {
-    name: "Jiro",
-    subtitle: "Task manager made with react-beautiful-dnd",
-    link: "https://jiro.estellegresillon.fr",
-    image: "jiro.jpeg",
+    name: "Page Builder",
+    subtitle: "A demo with custom components and drag and drop",
+    link: "https://builder.estellegresillon.fr",
+    image: "builder.jpeg",
   },
   {
     name: "Baroque",
@@ -93,10 +87,16 @@ export const WEBSITES = [
     image: "zest.jpeg",
   },
   {
-    name: "Firebase Chat",
-    subtitle: "React chat hosted with Firebase",
-    link: "https://chat.estellegresillon.fr",
-    image: null,
+    name: "Games Play Ground",
+    subtitle: "Including Worldle, Tetris, Rocker Paper Scissors and others",
+    link: "https://playground.estellegresillon.fr",
+    image: "playground.jpeg",
+  },
+  {
+    name: "Jiro",
+    subtitle: "Task manager made with react-beautiful-dnd",
+    link: "https://jiro.estellegresillon.fr",
+    image: "jiro.jpeg",
   },
   {
     name: "Foodlab",
@@ -110,12 +110,6 @@ export const WEBSITES = [
     link: "http://thatsmyrock.com",
     image: "thatsmyrock.jpeg",
   },
-  // {
-  //   name: "Flow",
-  //   subtitle: "Diagrams made with React Flow",
-  //   link: "https://flow.estellegresillon.fr",
-  //   image: "flow.jpeg",
-  // },
 ];
 
 export const SOCIAL_LINKS = [
